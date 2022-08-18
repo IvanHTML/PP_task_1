@@ -1,0 +1,61 @@
+.pre-fall {
+    padding: 40px 0 90px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+    &__subtitle {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    &__title {
+        
+        font-size: 26px;
+        font-weight: 500;
+    }
+    &__man {
+        position: relative;
+        margin-top: 25px;
+        .jackets {
+            position: absolute;
+            top: 200px;
+            right: 100px;
+            
+        }
+        .hoodies {
+            position: absolute;
+            top: 580px;
+            left: 100px;
+        }
+        .shoes {
+            position: absolute;
+            bottom: 120px;
+            right: 100px;
+        }
+    }
+    .man-hot-stuff {
+        margin-top: 60px;
+        margin-bottom: 115px;
+    }
+    &__woman {
+        position: relative;
+        margin-top: 25px;
+        .jackets-woman {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        .denim {
+            position: absolute;
+            top: 580px;
+            right: 100px;
+        }
+        .high-heels {
+            position: absolute;
+            bottom: 120px;
+            left: 100px;
+        }
+    }
+    .woman-hot-stuff {
+        margin-top: 60px;
+    }
+}

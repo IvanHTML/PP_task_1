@@ -1,0 +1,29 @@
+.teddy-bear {
+    min-height: 250px;
+    padding: 30px 0 60px 0;
+    text-align: center;
+    &__title {
+        font-size: 48px;
+        text-transform: uppercase;
+    }
+    &__descr {
+        font-weight: 300;
+    }
+    &__gender {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 36px;
+        width: 500px;
+        height: 40px;
+        .men, .women {
+            text-transform: uppercase;
+            width: 220px;
+            color: #fff;
+            background-color: #000;
+            font-size: 17px;
+            line-height: 42px;
+            cursor: pointer;
+        }
+    }
+}
