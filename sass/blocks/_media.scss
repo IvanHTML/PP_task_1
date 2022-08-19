@@ -1,0 +1,164 @@
+@media (max-width: 1200px) { // check from 993px
+    .header {
+        &__shipping {
+            display: none;
+        }
+        &__info {
+            display: none;
+        }
+        &__menu {
+            display: none;
+        }
+        &__wrapper {
+            .hamburger {
+                display: block;
+            }
+            &:before {
+                display: none;
+            }
+        }
+        &__contacts {
+            margin-left: 0;
+            &-search {
+                display: none;
+            }
+            &-icons {
+                margin-top: 0;
+                align-items: flex-start;
+            }
+        }
+        &__official {
+            margin-left: 90px;
+            width: 450px;
+            &-logo {
+                width: 100%;
+            }
+        }
+    }
+    .donna {
+        width: 993px;
+        img {
+            width: 100%;
+        }
+    }
+    .pre-fall__man {
+        width: 993px;
+        img {
+            width: 100%;
+        }
+        .jackets, .shoes {
+            width: 200px;
+            height: 200px;
+            right: 100px;
+        }
+        .hoodies {
+            width: 200px;
+            height: 200px;
+            left: 100px;
+        }
+    }
+    .man-hot-stuff {
+        width: 993px;
+    }
+    .pre-fall__woman {
+        width: 993px;
+        img {
+            width: 100%;
+        }
+        .jackets-woman, .high-heels {
+            width: 200px;
+            height: 200px;
+            left: 100px;
+        }
+        .denim {
+            width: 200px;
+            height: 200px;
+            right: 100px;
+        }
+    }
+    .woman-hot-stuff {
+        width: 993px;
+    }
+    .footer__wrapper-3-items {
+        width: 800px;
+    }
+    .footer__wrapper-2-items {
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 992px) { // check from 767px
+    .donna {
+        width: 767px;
+        margin: 0 auto;
+        margin-top: 15px;
+        img {
+            width: 100%;
+        }
+    }
+    .pre-fall__man {
+        width: 767px;
+        img {
+            width: 100%;
+        }
+        .jackets, .shoes {
+            width: 200px;
+            height: 200px;
+            right: 100px;
+        }
+        .hoodies {
+            width: 200px;
+            height: 200px;
+            left: 100px;
+        }
+    }
+    .man-hot-stuff {
+        width: 767px;
+    }
+    .pre-fall__woman {
+        width: 767px;
+        img {
+            width: 100%;
+        }
+        .jackets-woman, .high-heels {
+            width: 200px;
+            height: 200px;
+            left: 100px;
+        }
+        .denim {
+            width: 200px;
+            height: 200px;
+            right: 100px;
+        }
+    }
+    .woman-hot-stuff {
+        width: 767px;
+    }
+    .footer__wrapper-3-items {
+        width: 630px;
+        ul {
+            a {
+                line-height: 26px;
+                font-size: 12px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .footer__wrapper-2-items {
+        width: 600px;
+    }
+    .footer {
+        padding: 50px 20px 30px;
+    }
+}
+
+@media (max-width: 768px) { // check from 577
+
+}
+
+@media (max-width: 576px) { // check from 320px
+
+}

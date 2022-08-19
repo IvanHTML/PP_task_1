@@ -14,22 +14,24 @@
     }
     &__man {
         position: relative;
+        margin: 0 auto;
         margin-top: 25px;
+        width: 1149px;
         .jackets {
             position: absolute;
             top: 200px;
-            right: 100px;
+            right: -300px;
             
         }
         .hoodies {
             position: absolute;
             top: 580px;
-            left: 100px;
+            left: -300px;
         }
         .shoes {
             position: absolute;
             bottom: 120px;
-            right: 100px;
+            right: -300px;
         }
     }
     .man-hot-stuff {
@@ -38,21 +40,23 @@
     }
     &__woman {
         position: relative;
+        margin: 0 auto;
         margin-top: 25px;
+        width: 1149px;
         .jackets-woman {
             position: absolute;
             top: 200px;
-            left: 100px;
+            left: -300px;
         }
         .denim {
             position: absolute;
             top: 580px;
-            right: 100px;
+            right: -300px;
         }
         .high-heels {
             position: absolute;
             bottom: 120px;
-            left: 100px;
+            left: -300px;
         }
     }
     .woman-hot-stuff {

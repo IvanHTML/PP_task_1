@@ -7,15 +7,19 @@
         text-transform: uppercase;
     }
     &__descr {
-        font-weight: 300;
+        font-weight: 500;
     }
     &__gender {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        margin-top: 36px;
+        margin-top:20px;
         width: 500px;
         height: 40px;
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
         .men, .women {
             text-transform: uppercase;
             width: 220px;
@@ -23,7 +27,6 @@
             background-color: #000;
             font-size: 17px;
             line-height: 42px;
-            cursor: pointer;
         }
     }
 }
