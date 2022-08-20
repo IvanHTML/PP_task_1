@@ -5,8 +5,10 @@
     &__title {
         font-size: 48px;
         text-transform: uppercase;
+        font-family: 'Century Gothic Bold';
     }
     &__descr {
+        font-family: 'Century Gothic Regular';
         font-weight: 500;
     }
     &__gender {
@@ -21,6 +23,7 @@
             cursor: pointer;
         }
         .men, .women {
+            font-family: 'Century Gothic Bold';
             text-transform: uppercase;
             width: 220px;
             color: #fff;

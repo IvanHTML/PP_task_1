@@ -14,7 +14,7 @@
         color: #fff;
         text-align: center;
         padding: 5px 0;
-        font-weight: 300;
+        font-family: 'Century Gothic Regular';
         .close {
             position: absolute;
             top: 2px;
@@ -55,6 +55,7 @@
     //     }
     // }
     &__info {
+        font-family: 'Century Gothic Regular';
         width: 370px;
         display: flex;
         justify-content: flex-start;
@@ -62,9 +63,12 @@
         text-transform: uppercase;
         margin-left: 90px;
         font-size: 14px;
-        font-weight: 300;
         .arrow-down {
             margin-left: 10px;
+            a {
+                color: black;
+                text-decoration: none;
+            }
         }
         .lang {
             margin-left: 40px;
@@ -89,25 +93,29 @@
         margin-top: 20px;
         li {
             a {
+                font-family: 'Century Gothic Regular';
                 text-decoration: none;
                 color:#000;
-                font-weight: 300;
             }
         }
     }
     &__contacts {
+        font-family: 'Century Gothic Regular';
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         width: 180px;
         font-size: 14px;
-        font-weight: 300;
         margin-left: 270px;
         &-search {
             font-size: 18px;
             display: flex;
             justify-content: space-between;
             width: 100px;
+            a {
+                color: black;
+                text-decoration: none;
+            }
             div {
                 width: 20px;
                 height: 20px;
@@ -134,7 +142,7 @@
         }
     }
     .active {
-        font-weight: 700;
+        font-family: 'Century Gothic Bold'; 
     }
 }
 
