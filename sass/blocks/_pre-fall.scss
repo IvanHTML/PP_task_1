@@ -1,4 +1,31 @@
 .pre-fall {
+    .carousel {
+        display: none;
+        padding-top: 60px;
+        &__inner {
+            position: relative;
+            width: 750px;
+            margin: 0 auto;
+            div {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+            border: none;
+            background-color: #f7f7f7;
+        }
+        .slick-next {
+            right: -66px;
+            left: auto;
+        }
+    }
     padding: 40px 0 90px 0;
     background-color: #f7f7f7;
     text-align: center;

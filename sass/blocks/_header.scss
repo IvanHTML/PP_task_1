@@ -6,6 +6,71 @@
     z-index: 10;
     width: 100%;
     border-bottom: 1px solid black;
+    &__res_767px {
+        display: none;
+        .header__official-logo {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .wrapper {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-around;
+            div {
+                position: relative;
+                &:after {
+                    content: '';
+                    height: 25px;
+                    width: 1px;
+                    background-color: #000;
+                    position: absolute;
+                    margin-left: 55px;
+                }
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+                width: 25px;
+                height: 25px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    &__res_993px {
+        display: none;
+        .wrapper {
+            padding: 15px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            div {
+                width: 33%;
+            }
+            .header__official-logo {
+                padding: 0;
+                // width: 400px;
+            }
+            .header__contacts-icons {
+                padding-left: 120px;
+                div {
+                    width: 25px;
+                    height: 25px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                margin-top: 0;
+                // width: 150px;
+                font-size: 0;
+            }
+        }
+    }
     &__shipping {
         position: relative;
         height: 30px;
@@ -30,7 +95,7 @@
         align-items: start;
         padding: 20px 35px 20px 48px;
         .hamburger {
-            width: 40px;
+            width: 30px;
             height: 40px;
             display: none;
             img {
@@ -46,14 +111,6 @@
             background: url('../../logos/logo_PP_square.jpeg') center (center / cover) no-repeat;
         }
     }
-    // &__logo {
-    //     width: 80px;
-    //     height: 86px;
-    //     img {
-    //         width: 100%;
-    //         height: 100%;
-    //     }
-    // }
     &__info {
         font-family: 'Century Gothic Regular';
         width: 370px;
@@ -145,4 +202,5 @@
         font-family: 'Century Gothic Bold'; 
     }
 }
+
 

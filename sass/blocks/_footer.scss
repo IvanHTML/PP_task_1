@@ -75,7 +75,7 @@
     }
     &__wrapper-2-items {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 0 auto;
         width: 1000px;
         margin-top: 40px;
@@ -102,5 +102,29 @@
         text-align: center;
         margin-top: 40px;
         color: #9d9d9d;
+    }
+    &__wrapper_993px {
+        display: none;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            &__item {
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+                font-family: 'Century Gothic Regular';
+                align-items: center;
+                padding: 20px 0;
+                border-bottom: 1px solid black;
+                &:last-child {
+                    border-bottom: none;
+                }
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
     }
 }

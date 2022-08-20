@@ -1,7 +1,58 @@
-@media (max-width: 1440px) {
-    .donna {
-        width: 1380px;
-        img {
+@media (max-width: 2560px) { // check from 1441px
+
+}
+
+@media (max-width: 1440px) { // check from 1201px
+    .header {
+        &__info {
+            font-size: 10px;
+            .arrow-down {
+                margin-left: 5px;
+             
+            }
+            .lang {
+                margin-left: 20px;
+            }
+        }
+        &__menu {
+            font-size: 12px;
+        }
+        &__shipping {
+            display: none;
+        }
+        &__contacts {
+            margin-left: 200px;
+        }
+    }
+    .sale {
+        margin-top: 0;
+    }
+    .pre-fall {
+        &__man {
+            .jackets, .hoodies, .shoes {
+                display: none;
+            }
+        }
+        .carousel {
+            display: block;
+        }
+        .man-hot-stuff {
+            width: 100%;
+        }
+        &__woman {
+            .jackets-woman, .denim, .high-heels {
+                display: none;
+            }
+        }
+        .woman-hot-stuff {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__wrapper-3-items {
+            width: 100%;
+        }
+        &__wrapper-2-items {
             width: 100%;
         }
     }
@@ -12,167 +63,241 @@
         &__shipping {
             display: none;
         }
-        &__info {
-            display: none;
-        }
-        &__menu {
-            display: none;
-        }
         &__wrapper {
-            .hamburger {
-                display: block;
-            }
-            &:before {
-                display: none;
+            display: none;
+        }
+        &__res_993px {
+            display: block;
+        }
+    }
+    .pre-fall {
+        &__man {
+            width: 100%;
+            img {
+                width: 100%;
             }
         }
-        &__contacts {
-            margin-left: 0;
-            &-search {
-                display: none;
-            }
-            &-icons {
-                margin-top: 0;
-                align-items: flex-start;
-            }
-        }
-        &__official {
-            margin-left: 90px;
-            width: 450px;
-            &-logo {
+        &__woman {
+            width: 100%;
+            img {
                 width: 100%;
             }
         }
     }
-    .donna {
-        width: 993px;
-        img {
-            width: 100%;
+    .footer {
+        padding: 50px;
+        &__wrapper-3-items {
+            display: none;
+        }
+        &__wrapper_993px {
+            display: block;
+        }
+        &__wrapper-2-items {
+            justify-content: space-around;
         }
     }
-    .pre-fall__man {
-        width: 993px;
-        img {
-            width: 100%;
-        }
-        .jackets, .shoes {
-            width: 200px;
-            height: 200px;
-            right: 100px;
-        }
-        .hoodies {
-            width: 200px;
-            height: 200px;
-            left: 100px;
-        }
-    }
-    .man-hot-stuff {
-        width: 993px;
-    }
-    .pre-fall__woman {
-        width: 993px;
-        img {
-            width: 100%;
-        }
-        .jackets-woman, .high-heels {
-            width: 200px;
-            height: 200px;
-            left: 100px;
-        }
-        .denim {
-            width: 200px;
-            height: 200px;
-            right: 100px;
-        }
-    }
-    .woman-hot-stuff {
-        width: 993px;
-    }
-    .footer__wrapper-3-items {
-        width: 800px;
-    }
-    .footer__wrapper-2-items {
-        width: 600px;
-    }
-    .sale {
-        margin-top: 0;
-    }
+
 }
 
-@media (max-width: 992px) { // check from 767px
-    .donna {
-        width: 767px;
-        margin: 0 auto;
-        margin-top: 15px;
-        img {
-            width: 100%;
+@media (max-width: 992px) { // check from 769px
+    .header {
+        &__res_993px {
+            display: none;
         }
-    }
-    .pre-fall__man {
-        width: 767px;
-        img {
-            width: 100%;
-        }
-        .jackets, .shoes {
-            width: 200px;
-            height: 200px;
-            right: 100px;
-        }
-        .hoodies {
-            width: 200px;
-            height: 200px;
-            left: 100px;
-        }
-    }
-    .man-hot-stuff {
-        width: 767px;
-    }
-    .pre-fall__woman {
-        width: 767px;
-        img {
-            width: 100%;
-        }
-        .jackets-woman, .high-heels {
-            width: 200px;
-            height: 200px;
-            left: 100px;
-        }
-        .denim {
-            width: 200px;
-            height: 200px;
-            right: 100px;
-        }
-    }
-    .woman-hot-stuff {
-        width: 767px;
-    }
-    .footer__wrapper-3-items {
-        width: 630px;
-        ul {
-            a {
-                line-height: 26px;
-                font-size: 12px;
-            }
-            span {
-                font-size: 16px;
+        &__res_767px {
+            display: block;
+            .wrapper {
+                div {
+                    &:after {
+                        margin-left: 66px;
+                    }
+                }
             }
         }
     }
-    .footer__wrapper-2-items {
-        width: 600px;
+    .teddy-bear {
+        &__descr {
+            padding: 0 20px;
+        }
     }
-    .footer {
-        padding: 50px 20px 30px;
-    }
-    .sale {
-        margin-top: 0;
+    .pre-fall {
+        .carousel {
+            &__inner {
+                img {
+                    width: 50%;
+                }
+            }
+            .slick-prev {
+                left: 10px;
+            }
+            .slick-next {
+                right: 10px;
+            }
+        }
     }
 }
 
 @media (max-width: 768px) { // check from 577
-
+    .header {
+        &__res_767px {
+            .wrapper {
+                div {
+                    &:after {
+                        margin-left: 45px;
+                    }
+                }
+            }
+        }
+    }
+    .pre-fall {
+        .carousel {
+            &__inner {
+                width: 100%;
+                img {
+                    width: 50%;
+                }
+            }
+            .slick-prev {
+                left: 100px;
+            }
+            .slick-next {
+                right: 100px;
+            }
+        }
+    }
+    .footer {
+        padding: 0;
+        &__wrapper_993px {
+            
+            .wrapper {
+                &__item {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+        &__rights {
+            font-size: 14px;
+            margin-top: 0;
+            height: 60px;
+            line-height: 60px;
+        }
+    }
 }
 
 @media (max-width: 576px) { // check from 320px
+    .header {
+        &__res_767px {
+            .wrapper {
+                div {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .sale {
+        width: 100%;
+        &__text {
+            font-size: 80px;
+        }
+        &__time {
+            margin-top: 80px;
+        }
+        &__gender {
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+            .men {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .donna {
+        margin-top: 5px;
+    }
+    .teddy-bear {
+        &__title {
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        &__gender {
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+            .men {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .pre-fall {
+        padding-bottom: 30px;
+        .carousel {
+            &__inner {
+                width: 100%;
+                img {
+                    width: 50%;
+                }
+            }
+            .slick-prev {
+                left: 40px;
+            }
+            .slick-next {
+                right: 40px;
+            }
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        .man-hot-stuff {
+            margin-bottom: 30px;
+        }
+    }
+    .footer {
+        padding: 0px;
+        &__socials {
+            width: 200px;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        &__text {
+            margin-top: 30px;
+        }
+        &__form {
+            flex-direction: column;
+            input {
+                
+                margin: 0 auto;
+                width: 90%;
+            }
+            .btn {
+                width: 90%;
+                margin-top: 10px;
+            }
+        }
+        &__wrapper-2-items {
+            flex-direction: column;
+            margin: 40px 0;
 
+        }
+        &__junior {
+            margin-bottom: 20px;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+        }
+        &__rights {
+            font-size: 14px;
+            margin-top: 0;
+            height: 60px;
+            line-height: 60px;
+        }
+    }
 }
