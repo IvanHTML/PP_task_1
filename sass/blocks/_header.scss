@@ -1,5 +1,11 @@
 .header {
     max-height: 146px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid black;
     &__shipping {
         position: relative;
         height: 30px;

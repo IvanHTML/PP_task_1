@@ -85,7 +85,9 @@
     .footer__wrapper-2-items {
         width: 600px;
     }
-
+    .sale {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 992px) { // check from 767px
@@ -152,6 +154,9 @@
     }
     .footer {
         padding: 50px 20px 30px;
+    }
+    .sale {
+        margin-top: 0;
     }
 }
 
